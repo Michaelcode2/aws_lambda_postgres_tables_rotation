@@ -1,0 +1,15 @@
+[{
+	"TABLE_NAME": "order_shipments",
+	"WHERE_CLAUSE": {
+		"LIMIT": 1000,
+		"WHERE_KEYS": "(create_timestamp <= (now() - interval '90 days'))",
+		"KEY": "create_timestamp"
+	}
+}, {
+	"TABLE_NAME": "order_shipments",
+	"WHERE_CLAUSE": {
+		"LIMIT": 1000,
+		"WHERE_KEYS": "(create_timestamp <= (now() - interval '90 days'))",
+		"KEY": "create_timestamp"
+	}
+}]
